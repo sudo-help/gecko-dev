@@ -14211,18 +14211,6 @@
     "n_buckets": 10,
     "description": "Percentages of times for phases in a normal content paint relative to the time spent in the entire normal paint. (\"dl\" = Display list, \"flb\" = Frame layer builder, \"fr\" = Flush rasterization, \"r\" = Rasterization)"
   },
-  "GPU_WAIT_TIME_MS": {
-    "record_in_processes": ["main", "gpu"],
-    "products": ["firefox", "fennec"],
-    "alert_emails": ["gfx-telemetry-alerts@mozilla.com", "jmuizelaar@mozilla.com"],
-    "bug_numbers": [1524090, 1656130],
-    "expires_in_version": "86",
-    "releaseChannelCollection": "opt-out",
-    "kind": "exponential",
-    "high": 5000,
-    "n_buckets": 50,
-    "description": "The number of milliseconds we spend waiting for the GPU"
-  },
   "NARRATE_CONTENT_BY_LANGUAGE_2": {
     "record_in_processes": ["main", "content"],
     "products": ["firefox", "fennec"],
